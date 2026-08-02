@@ -961,3 +961,23 @@ footer span {
         font-size: 28px;
     }
 }
+@media (max-width: 768px) {
+    .story {
+        grid-template-columns: 1fr;
+        padding: 48px 24px;
+        gap: 32px;
+    }
+
+    .story-img {
+        height: 260px;
+    }
+}
+@media (max-width: 768px) {
+    .values {
+        padding: 48px 24px;
+    }
+
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+}
