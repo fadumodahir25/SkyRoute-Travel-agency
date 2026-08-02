@@ -993,3 +993,12 @@ footer span {
         grid-template-columns: 1fr;
     }
 }
+@media (max-width: 768px) {
+    .why-contact {
+        padding: 48px 24px;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+}
