@@ -931,3 +931,13 @@ footer span {
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 768px) {
+    .ratings {
+        padding: 48px 24px;
+    }
+
+    .rating-cards {
+        grid-template-columns: 1fr;
+    }
+}
