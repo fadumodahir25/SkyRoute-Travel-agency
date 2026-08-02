@@ -921,3 +921,13 @@ footer span {
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 768px) {
+    .why-us {
+        padding: 48px 24px;
+    }
+
+    .why-cards {
+        grid-template-columns: 1fr;
+    }
+}
