@@ -981,3 +981,15 @@ footer span {
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 768px) {
+    .contact-main {
+        grid-template-columns: 1fr;
+        padding: 48px 24px;
+        gap: 40px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}
